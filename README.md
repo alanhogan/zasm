@@ -224,7 +224,7 @@ Utility classes should be defined _sparingly._ You may not even need or write a 
 
 Name them with a `u-` prefix and kebab-case (hyphenate) the rest.
 
-Utility classes are standalone classes that acheive a narrow purpose. If you are tempted to make a "variant" or "part" of a utility, you should convert it to a module instead.
+Utility classes are standalone classes that achieve a narrow purpose. If you are tempted to make a "variant" or "part" of a utility, you should convert it to a module instead.
 
 ```css
 .u-clear {
