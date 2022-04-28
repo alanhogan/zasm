@@ -37,7 +37,7 @@ In this document I hope to define a CSS methodology using a small set of unambig
 
 The first major goal is maintainability — important whether your project involves one person or ten. For any sort of styling you want to do, under ZASM, there should be one clear, “right’ way to write the selector for it; this makes the CSS easy to author. Class names written under ZASM are designed to be instantly identifiable as belonging to one of the categories defined in the methodology. This provides readability and helps communicate author intention. By keeping the methodology small and tightly defined, new collaborators won’t face a large uphill climb to productivity — at least, assuming they have already learned enough CSS, an admittedly complicated pre-requisite!
 
-The second top-level goal is broad compatibility. That means that ZASM should be able to be the one methodology you can reach for in all your projects, both shared and personal. To do this, we carefully establish rules that are strict enough to provide some built in ‘defenses’ as well as flexible enough 
+The second top-level goal is broad compatibility. That means that ZASM should be able to be the one methodology you can reach for in all your projects, both shared and personal. To do this, we carefully establish rules that are strict enough to provide some built in ‘defenses’ as well as flexible enough to adapt to any specific project.
 
 
 ### Base Styles {#base}
@@ -269,13 +269,20 @@ For enabling automated QA testing, always use class names beginning with `qa-`: 
 It is _recommended_ to apply as many non-styling class names to the same element as needed, even if that element also uses one or more ZASM class names for styling purposes.
 
 
+### Cheat Sheet {#cheat-sheet}
+
+For quick reference, enjoy [the ZASM cheat sheet](https://alanhogan.com/code/css/zasm/cheat-sheet).
+
 
 ### Thanks {#thanks}
 
 This methodology is hugely inspired by [SMACSS][] and [BEM][].
 
+This document is [open source][zasm-gh]. Issues and pull requests are welcome.
+
 [SMACSS]: https://smacss.com/ "Scalable and Modular Approach to CSS"
 [BEM]: http://getbem.com/ "Block, Element, Modifier"
+[zasm-gh]: https://github.com/alanhogan/zasm/
 
 ### License {#license}
 
