@@ -1,7 +1,8 @@
 # ZASM Cheat Sheet
 
 [ZASM] v1.0.0 © 2022 by Alan Hogan. Licensed under CC-BY-4.0.
-[ZASM]: https://alanhogan.com/code/css/zasm#content-oriented-modules "ZASM: Zero-Ambiguity Stylesheet Methodology"
+
+[ZASM]: https://alanhogan.com/code/css/zasm "ZASM: Zero-Ambiguity Stylesheet Methodology"
 
 ### Base {#base}
 
