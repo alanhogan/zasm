@@ -252,7 +252,7 @@ Utility classes are standalone classes that achieve a narrow purpose. If you are
 
 * Do not use `!important` (unless it is necessary due to some horrible legacy code you can't jettison).
 
-* Do write element-based selectors (except for the smallest number necessary in base styles). For example, do not style `main` or `article`. Instead, invent a module and apply it. It is acceptable to use ancestor selectors to style elements within a content-focused module: `.cnt p { margin 1.2em 0; }` is a fine rule for styling paragraphs within your main content area `.cnt`.
+* Do not write element-based selectors (except for the smallest number necessary in base styles). For example, do not style `main` or `article`. Instead, invent a module and apply it. It is acceptable to use ancestor selectors to style elements within a content-oriented module: `.cnt p { margin 1.2em 0; }` is a fine rule for styling paragraphs within your main content area `.cnt`.
 
 
 
