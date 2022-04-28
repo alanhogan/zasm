@@ -1,6 +1,11 @@
 ZASM: Zero-Ambiguity Stylesheet Methodology
 ===========================================
 
+<!-- Markdown formatting note:
+     This file is authored against PHP Markdown Extra,
+     not GitHub-Flavored Markdown. -->
+
+
 _© 2022 by Alan J. Hogan · [licensed](#license) under CC BY 4.0_
 
 * [Introduction](#introduction)
@@ -177,9 +182,9 @@ ZASM strongly supports responsive design, which is what we call it when the same
 
 Caution: _Never_ write CSS with descendant and element name seletors like this for a layout module:
 
-```css bad
+<pre><code class="css bad">
 .xyz div { float: left; }
-```
+</code></pre>
 
 That's a great way to mess up just about every module nested within `.xyz`, and it’s a completely avoidable violation of ZASM rules.
 
