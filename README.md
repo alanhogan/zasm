@@ -280,7 +280,7 @@ This methodology is hugely inspired by [SMACSS][] and [BEM][].
 
 This document is [open source][zasm-gh]. Issues and pull requests are welcome.
 
-[SMACSS]: https://smacss.com/ "Scalable and Modular Approach to CSS"
+[SMACSS]: http://smacss.com/ "Scalable and Modular Approach to CSS"
 [BEM]: http://getbem.com/ "Block, Element, Modifier"
 [zasm-gh]: https://github.com/alanhogan/zasm/
 
