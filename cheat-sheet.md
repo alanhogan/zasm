@@ -77,3 +77,9 @@ For automated QA testing, use `qa-`: `class="qa-home-page-call-to-action"`.
 
 * ZASM does not recommend whether or not to use native CSS variables and/or preprocessor variables.
 * ZASM is compatible with "CSS Modules" type techology (e.g. Webpack loaders) just as well as plain old `<link rel=stylesheet>` inclusion.
+
+### Open Source
+
+This document is [open source][zasm-gh]. Issues and pull requests are welcome.
+
+[zasm-gh]: https://github.com/alanhogan/zasm/
