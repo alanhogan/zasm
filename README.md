@@ -5,9 +5,7 @@ ZASM: Zero-Ambiguity Stylesheet Methodology
      This file is authored against PHP Markdown Extra,
      not GitHub-Flavored Markdown. -->
 
-
-_© 2022 by Alan J. Hogan · [licensed](#license) under CC BY 4.0_
-
+<div class=toc markdown=1>
 * [Introduction](#introduction)
 * [Base Styles](#base)
 * [Modules](#modules)
@@ -19,6 +17,7 @@ _© 2022 by Alan J. Hogan · [licensed](#license) under CC BY 4.0_
 * [Non-Styling Class Names](#non-styling)
 * [Thanks](#thanks)
 * [License](#license)
+</div>
 
 ### Introduction {#introduction}
 
