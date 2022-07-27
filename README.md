@@ -181,7 +181,7 @@ ZASM strongly supports responsive design, which is what we call it when the same
 
 Caution: _Never_ write CSS with descendant and element name seletors like this for a layout module:
 
-<pre><code class="css code--bad-example">.xyz div { float: left; }</code></pre>
+<pre class="code--bad-example"><code class="css">.xyz div { float: left; }</code></pre>
 
 That's a great way to mess up just about every module nested within `.xyz`, and it’s a completely avoidable violation of ZASM rules.
 
